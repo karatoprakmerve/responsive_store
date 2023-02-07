@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Grocery</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-seedling"></i>  Manav </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blog</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+            <div class="fa-solid fa-cart-shopping" id="cart-btn"></div>
+            <div class="fa-solid fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search..">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p> <a href="#">Forgot Password ?</a></p>
+            <p>Don't Have An Account ? <a href="#">Sign Up</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+        
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh & Organic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit sint voluptatibus nemo cum vitae molestias repellendus obcaecati</p>
+            <a href="#" class="btn">Shop Now!</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/feature3.png" alt="">
+                <h3>Fresh and Organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/feature1.png" alt="">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/feature2.png" alt="">
+                <h3>Easy Payment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Our Products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/product1.jpg" alt="">
+                    <h3>Onion</h3>
+                    <div class="price">$4.99</div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/product2.jpg" alt="">
+                    <h3>Watermelon</h3>
+                    <div class="price">$2.99</div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/product3.jpg" alt="">
+                    <h3>Avocado</h3>
+                    <div class="price">$0.99</div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/product4.jpg" alt="">
+                    <h3>Potato</h3>
+                    <div class="price">$0.99</div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/product5.jpg" alt="">
+                    <h3>Bread</h3>
+                    <div class="price">$1.99</div>
+                    <a href="#" class="btn">add to chart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/product6.jpg" alt="">
+                    <h3>Egg</h3>
+                    <div class="price">$1.99</div>
+                    <a href="#" class="btn">add to chart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/product7.jpg" alt="">
+                    <h3>Tomatoes</h3>
+                    <div class="price">$0.69</div>
+                    <a href="#" class="btn">add to chart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/product8.jpg" alt="">
+                    <h3>Banana</h3>
+                    <div class="price">$0.29</div>
+                    <a href="#" class="btn">add to chart</a>
+                </div>
+            </div>
+        </div>   
+        </div>
+    </section>
+
+    <section class="categories" id="categories">
+        <h1 class="heading">Categories</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/cat1.jpg" alt="">
+                <h3>Vegetables</h3>
+                <p>Up to %25 Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="images/cat2.jpg" alt="">
+                <h3>Dairy</h3>
+                <p>Up to %25 Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="images/cat3.jpeg" alt="">
+                <h3>Pastry</h3>
+                <p>Up to %25 Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="images/cat4.jpg" alt="">
+                <h3>Dried Legumes</h3>
+                <p>Up to %25 Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="reviews">
+        <h1 class="heading">Customer's Reviews</h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/person1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, illo?</p>
+                    <h3>Jack Joe</h3>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/person2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, illo?</p>
+                    <h3>Jack Joe</h3>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/person3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, illo?</p>
+                    <h3>Jack Joe</h3>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/person4.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, illo?</p>
+                    <h3>Jack Joe</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our Blog</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/blog1.jpg" alt="" srcset="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i> by user</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i>1st may 2022</a>
+                    </div>
+                    <h3>Appetizer Options</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores excepturi adipisci dignissimos voluptatem.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog2.jpg" alt="" srcset="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i> by user</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i>26th nov 2022</a>
+                    </div>
+                    <h3>Berry Pie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores excepturi adipisci dignissimos voluptatem.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog3.jpg" alt="" srcset="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i> by user</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i> 18th dec 2022</a>
+                    </div>
+                    <h3>Five Tea Menu </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores excepturi adipisci dignissimos voluptatem.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog4.jpg" alt="" srcset="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i> by user</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i>26th april 2022</a>
+                    </div>
+                    <h3>Organic and Fresh</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores excepturi adipisci dignissimos voluptatem.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>  
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Manav <i class="fas fa-seedling"></i></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus repellat odit veniam veritatis cumque.</p>
+                <div class="share">
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-youtube"></a>
+                    <a href="#" class="fa-brands fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus repellat odit veniam veritatis cumque.</p>
+                <div class="map">
+                    <a href="#" class="links"><i class="fa-solid fa-phone"></i> +123 445566</a>
+                    <a href="#" class="links"><i class="fa-solid fa-envelope"></i> hello@manav.co</a>
+                    <a href="#" class="links"><i class="fa-solid fa-location-pin"></i> 123 St. Denmark</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="fa-solid fa-caret-up"></i>Home</a>
+                <a href="#" class="links"><i class="fa-solid fa-caret-up"></i>Features</a>
+                <a href="#" class="links"><i class="fa-solid fa-caret-up"></i>Products</a>
+                <a href="#" class="links"><i class="fa-solid fa-caret-up"></i>Categories</a>
+                <a href="#" class="links"><i class="fa-solid fa-caret-up"></i>Reviews</a>
+                <a href="#" class="links"><i class="fa-solid fa-caret-up"></i>Blog</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>subscribe Our Weekly News!</p>
+                <input type="email" placeholder="Your email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+            </div>
+        </div>
+
+        <div class="credit">Created By merve &copy 2023</div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0524d450b7.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
